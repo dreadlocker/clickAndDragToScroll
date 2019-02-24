@@ -1,0 +1,45 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #bababa;
+}
+
+::-webkit-scrollbar {
+    background-color: #1b1c21;
+    color: #c4c0ba;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: #17181c;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #252a33;
+}
+
+#container {
+    padding-top: 1em;
+    height: 15%;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+}
+
+.item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85%;
+    font-size: 5vh;
+    border: 1px solid red;
+}
+
+h1 {
+    text-align: center;
+}
